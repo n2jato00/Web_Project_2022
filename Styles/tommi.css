@@ -12,6 +12,9 @@ body {
   font-weight: bold;
   margin-bottom: 5px;
 }
+#navbar a:hover {
+  color: #056888;
+}
 
 .container-fluid {
   display: flex;
@@ -19,15 +22,10 @@ body {
   align-items: center;
 }
 
-#navbar a:hover {
-  color: #056888;
-}
-
 .carousel .carousel-item {
   height: 120px;
 }
-
-.carousel-item img {
+.carousel .carousel-item img {
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
@@ -48,7 +46,6 @@ body {
   padding-bottom: 0.5rem;
   text-align: center;
 }
-
 .carousel-caption p {
   font-size: 1em;
   color: black;
@@ -76,6 +73,10 @@ p, a, footer {
   margin: 0;
   justify-content: space-between;
 }
+#footer img {
+  max-height: 100px;
+  background-color: white;
+}
 
 .team {
   display: flex;
@@ -85,11 +86,6 @@ p, a, footer {
 
 li.footer-item {
   padding: 3px;
-}
-
-footer img {
-  max-height: 100px;
-  background-color: white;
 }
 
 form {
